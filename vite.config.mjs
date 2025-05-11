@@ -62,7 +62,7 @@ export default defineConfig(({ mode }) => {
     //   include: ['react', 'react-dom', '@mui/material', '@mui/icons-material'],
     // },
     
-    base: API_URL,
+    base: '/',
     plugins: [react(), jsconfigPaths()]
   };
 });
